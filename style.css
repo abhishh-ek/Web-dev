@@ -1,0 +1,78 @@
+
+
+body {  
+      
+    background-color: #484888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 6px;
+    width: 500px;
+    height: 600px;
+}
+
+.formgroup {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 9px;
+    
+}
+
+input,select
+ {
+    width: 100%;
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+   
+}
+
+.genderoptions,
+.languageoptions {
+    display:flex;
+    justify-content:safe;
+    margin-top: 8px;
+  
+}
+.genderoptions label,.languageoptions label
+{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.genderoptions input ,.languageoptions input
+ {
+    display: grid;
+
+}
+
+
+button {
+    margin-left: 80%;
+    width: 20%;
+    padding: 5px;
+    background-color: #0085FF;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+        
+}
+
+button:hover {
+    background-color: #dfe2e6;
+    color: #000000;
+}
